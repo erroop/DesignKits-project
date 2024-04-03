@@ -1,0 +1,242 @@
+/* Header =========================================*/
+
+/* HeaderEvent ====================================*/
+.HeaderEvent{
+    background-color: #13cfb8;
+}
+
+/* HeaderEventWrap ================================*/
+.HeaderEventWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    max-height: 2.5rem;
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+
+/* HeaderEvent_Link_List ==========================*/
+.HeaderEvent_Link_List{
+    display: flex;
+    max-height: 2.5rem;
+    overflow: hidden;
+}
+
+.HeaderEventLink{
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+    color: #13cfb8;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.HeaderEventList_item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left:0.8rem;
+    margin-left: 0.8rem;
+}
+
+.HeaderEventList_item::before{
+    position: absolute;
+    left:0%;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: #fff;
+    content: "";
+}
+
+.HeaderEventList_item a{
+    color: #fff;
+    font-weight: 500;
+}
+
+/* HeaderEventAsk =================================*/
+.HeaderEventAsk a{
+    padding-left:1rem;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* MainHeader ======================================*/
+.MainHeader{
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+.MainHeaderWrap{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 90px;
+    margin: auto;
+}
+
+.Logo img{
+    width: 137px;
+}
+
+.HeaderSearch{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 2px solid #13cfb8;
+    border-radius: 3rem;
+}
+
+.HeaderInputCate{
+    position: relative;
+    padding-right: 2rem;
+    border: none;
+    color: #13cfb8;
+    background-color: transparent;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.HeaderInputCate::after{
+    position: absolute;
+    right: 0%;
+    width: 20%;
+    height: 100%;
+    background: url("../img/cm_arr_prm.png") no-repeat right / cover;
+    content: "";
+}
+
+.InputCate_list{
+    display: none;
+}
+
+.HeaderInput{
+    width: 300px;
+    padding-left: 1rem;
+    border: none;
+}
+
+.HeaderInput:focus{
+    outline: none;
+}
+
+
+.HeaderInputBtn{
+    border: none;
+    background-color: transparent;
+    color: #13cfb8;
+}
+
+.HeaderUser{
+    position: absolute;
+    right: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderUser a{
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.HeaderUser a:first-child{
+    margin: 0px;
+}
+
+.UserBag{
+    position: relative;
+}
+
+.UserBag::after{
+    position: absolute;
+    top:-20%;
+    right:-50%;
+    width: 20px;
+    height: 20px;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: #13cfb8;
+    font-size: 0.8rem;
+    content: "0";
+}
+
+.UserJoin{
+    padding: 0.7rem 1rem;
+    border-radius: 3rem;
+    color:#fff;
+    background-color: #2f3635;
+}
+
+/* HeaderCate =======================================*/
+.HeaderCate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    font-size: 0.95rem;
+}
+
+.HeaderCate_Wrap{
+    display: flex;
+    align-items: center;
+}
+
+.HeaderCateBtn{
+    display: flex;
+}
+
+.HeaderCateBtn button{
+    position: relative;
+    padding-left: 2rem;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.HeaderCateBtn button::before{
+    position: absolute;
+    top:50%;
+    left:0%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background: url("../img/bars-solid.svg") no-repeat;
+    content: "";
+}
+
+
+.HeaderCateList{
+    display: flex;
+    margin-left: 4rem;
+}
+
+.HeaderCateItem{
+    margin-left: 2rem;
+}
+
+.HeaderCateItem:first-child{
+    margin: 0rem;
+}
+
+.HeaderCateItem a{
+    font-weight: 500;
+}
+
+.HeaderCateCS a{
+    margin-left: 1rem;
+    color: #999;
+    font-weight: 600;
+}
