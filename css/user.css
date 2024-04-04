@@ -1,3 +1,6 @@
+/* Header / Footer 관리 css*/
+
+
 /* Header =========================================*/
 
 /* HeaderEvent ====================================*/
@@ -233,6 +236,13 @@
 
 .HeaderCateItem a{
     font-weight: 500;
+}
+
+.EventItem{
+    vertical-align: top;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #0066ff;
 }
 
 .HeaderCateCS a{
